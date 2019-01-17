@@ -1,0 +1,34 @@
+#ifndef _F6_30_ERRS_H
+#define _F6_30_ERRS_H
+
+
+#define F6_S_SUCCESS		0
+#define F6_E_PORT_NOT_AVAIL	(-1)
+#define F6_E_DEV_NOT_DETECTED	(-2)
+#define F6_E_CANCELED		(-10)
+#define F6_E_TIMEOUT		(-12)
+#define F6_E_IN_PROGRESS	(-13)
+#define F6_E_UNKNOWN_ERROR	(-22)
+#define F6_E_INTERNAL_ERROR	(-23)
+#define F6_E_OUT_OF_MEMORY	(-24)
+#define F6_E_INVALID_HANDLE	(-30)
+#define F6_E_INVALID_ARG	(-31)
+#define F6_E_BUFFER_TOO_SMALL	(-32)
+#define F6_E_UNSUPP_COMMAND	(-100)
+#define F6_E_DISABLED_COMMAND	(-101)
+#define F6_E_COMMAND_FAILURE	(-102)
+#define F6_E_POWER_ABNORMAL	(-103)
+#define F6_E_SENSOR_ABNORMAL	(-104)
+#define F6_E_CARD_JAMMED	(-105)
+#define F6_E_SHUTTER_ABNORMAL	(-106)
+#define F6_E_TOO_LONG_CARD	(-107)
+#define F6_E_TOO_SHORT_CARD	(-108)
+#define F6_E_ICC_NOTPRESENT	(-109)
+#define F6_E_RFCARD_NOTPRESENT	(-110)
+#define F6_E_CARD_LOCKED	(-111)
+#define F6_E_INVALID_PASSWORD	(-112)
+#define F6_E_FORMAT_ERROR	(-113)
+#define F6_E_RETAINBIN_FULL	(-120)
+#define F6_E_CARDBOX_EMPTY	(-121)
+
+#endif
